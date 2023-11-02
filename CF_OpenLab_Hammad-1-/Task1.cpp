@@ -10,14 +10,14 @@ int main() {
 	cout << "Do you want to issue or return a book (I/R)? " << endl;
 	cin >> operation;
 
-	if (operation == "I") {
+	if (operation == "I" || operation == "i") {
 		cout << "Which book do you want to issue?" << endl;
 		cin >> book_name;
 
 		cout << "Book issued." << endl;
 	}
 
-	else if (operation == "R") {
+	else if (operation == "R" || operation == "r") {
 		cout << "How many days have you had the book for?" << endl;
 		cin >> days;
 
